@@ -163,52 +163,52 @@ Screenshot
 
 ![Employee Names and Emails](screenshots/records of employee by their full names and email.JPG)
 
-
+---
 ## active employees
 There  are 61 active employees
-
-
+---
 
 ## employee who are absent
 58 employee are absent
-
+---
 
 ## employees from the finance department who are still active
 57 employees from the finance department are still active
 
-
+---
 
 ## employee records who are paid above one hundred thousand
 56 employee records are paid above one hundred thousand
 
-
+---
 ## information about employees from the HR and Finance department
 Here is a display of information about employees from the HR and Finance department
-
+---
 
 ## Export records of employees aren’t active
 54 employees aren’t active
-
+---
 
 ## attendance records of employees who were present in attendance only in Jan 2026
 53 emplouyees were in the Jan 2026 attendance records of employees who were present only in 
-
+---
 
 ## records of employees from finance department and are still active
 There is a records of 52 employees from finance department and are still active
-
+---
 
 ## Order Employees by last name in alphabetical
 Ordering Employees by last name alphabetical, '42', 'Owen', 'Adams', ranks top
-
+---
 
 ## records of employees with the Highest Salaries First
 There is a records of 50 employees that receives the Highest Salaries
-
+---
 
 ## Unique Departments in the organization
 There are 49 Unique Departments in the organization
 
+---
 2. Top 5 Performing Employees
 
 This query identifies the highest-performing employees based on their rating.
@@ -223,6 +223,7 @@ Screenshot
 
 ![Top 5 Performers](screenshots/Top 5 Performers.JPG)
 
+---
 3. Pagination Example (Next 5 Employees)
 
 This query retrieves the next group of employees after the first five records.
@@ -236,6 +237,8 @@ Screenshot
 
 ![Next 5 Employees](screenshots/Next 5 Employees (Pagination).JPG)
 
+
+---
 Key Business Insights
 
 Based on the SQL analysis, the following insights were observed:
@@ -250,36 +253,24 @@ Pagination helps retrieve large datasets in smaller manageable groups.
 
 Joining tables allows employee data to be analyzed alongside performance records.
 
+---
+
 Tools Used
-
 The following tools were used in this project:
-
 MySQL Workbench – Database creation and query execution
-
 SQL – Data analysis and manipulation
-
 GitHub – Version control and project hosting
-
 CSV Files – Exporting query results
-
 Microsoft Excel – Viewing dataset outputs
-
 Markdown – Documentation writing
-
 Screenshot Tools – Capturing query results
 
 Recommendations
-
 Based on this project, the following improvements can enhance employee data analysis:
-
 Implement automated dashboards using Power BI or Tableau.
-
 Track employee attendance trends to detect absenteeism patterns.
-
 Use SQL queries to identify salary gaps between job roles.
-
 Monitor employee performance regularly to improve productivity.
-
 Integrate the database with a web-based HR management system.
 
 Author
