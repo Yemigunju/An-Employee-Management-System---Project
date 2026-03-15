@@ -201,6 +201,7 @@ Lesson Learned
 - This query helps management understand staff distribution across departments.
 - It can help HR decide if a department needs more or fewer employees.
 
+Screenshot
 [![Active Employees in the Finance Department](Screenshots/employees_from_the_finance_department_who_are_still_active.JPG)](Screenshots/employees_from_the_finance_department_who_are_still_active.JPG)
 
 ## 5. Employees Paid Above 100,000
@@ -210,6 +211,11 @@ Lesson Learned
 - Many employees in the organization earn more than 100,000 in salary.
 - This query helps identify higher-paid employees.
 - It can help management analyze salary structures and compensation levels.
+
+Screenshot
+[![Employees Paid Above 100,000](Screenshots/employee_records_who_are_paid_above_one_hundred_thousand.JPG)](Screenshots/employee_records_who_are_paid_above_one_hundred_thousand.JPG)
+
+Screenshots/employee_records_who_are_paid_above_one_hundred_thousand.JPG
 
 6. Employees from HR and Finance Departments
 This query displays information about employees working in the HR and Finance departments.
