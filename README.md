@@ -303,12 +303,12 @@ Lesson Learned
 - The top employees have a rating of 5, which means excellent performance.
 - This helps managers easily identify the best-performing employees in the company.
 
-The first name of the top 5 employees are mentioned below:
-Sophia
-Harper
-Mia
-Sophia
-Harper
+The top 5 employees are mentioned below:
+Sophia	Miller
+Harper	Taylor
+Mia	Hernandez
+Sophia	Miller
+Harper	Taylor
 
 Screenshot
 [![Top 5 Performing Employees](Screenshots/Top_5_Performers.JPG)](Screenshots/Top_5_Performers.JPG)
@@ -317,23 +317,23 @@ Screenshot
 ## 14. Next 5 Employees
 This query retrieves the next group of employees after the first five records.
 
-What We Learned
+Lesson Learned
 - This query demonstrates something called pagination.
 - Pagination means showing results in smaller groups instead of all at once.
 - The first query shows the top 5 employees, and this query shows employees 6 to 10.
 - Pagination is useful when working with large datasets because it keeps results organized and easy to read.
 
 The next five employees are listed below:
-Mia
-Sophia
-Harper
-Mia
-Sophia
+Mia	Hernandez
+Sophia	Miller
+Harper	Taylor
+Mia	Hernandez
+Sophia	Miller
 
 Screenshot
 [![Next 5 Employees](Screenshots/Next_5_Employees_(Pagination).JPG)](Screenshots/Next_5_Employees_(Pagination).JPG)
 
-Screenshots/Next_5_Employees_(Pagination).JPG
+
 ---
 ## Key Business Insights
 
@@ -343,7 +343,7 @@ From the SQL analysis performed on the Employee Management System database, seve
 
 - The company currently has **61 active employees**.
 - However, **54 employees are not active**, which may indicate resignations, employee turnover, or employees currently on leave.
-- This insight can help HR understand the **current workforce size and inactive staff records**.
+- This insight help HR understand the **current workforce size and inactive staff records**.
 
 ---
 
@@ -351,7 +351,7 @@ From the SQL analysis performed on the Employee Management System database, seve
 
 - **58 employees were recorded as absent** in the attendance dataset.
 - **53 employees had attendance records for January 2026**.
-- These insights can help management monitor **attendance behavior and identify possible absenteeism patterns**.
+- These insights help management monitor **attendance behavior and identify possible absenteeism patterns**.
 
 ---
 
@@ -359,8 +359,7 @@ From the SQL analysis performed on the Employee Management System database, seve
 
 - The **Finance department has a large number of active employees**, with records showing **52–57 active staff members** depending on the filtering criteria.
 - The queries also display information about employees in **both the HR and Finance departments**, helping management review employee data by department.
-
-This type of analysis can help companies understand **how employees are distributed across departments**.
+- This type of analysis help companies understand **how employees are distributed across departments**.
 
 ---
 
@@ -390,21 +389,21 @@ These insights show how SQL databases can support **data-driven decision-making 
 ---
 ## Tools Used
 The following tools were used in this project:
-MySQL Workbench – Database creation and query execution
-SQL – Data analysis and manipulation
-GitHub – Version control and project hosting
-CSV Files – Exporting query results
-Microsoft Excel – Viewing dataset outputs
-Markdown – Documentation writing
-Screenshot Tools – Capturing query results
+- MySQL Workbench – Database creation and query execution
+- SQL – Data analysis and manipulation
+- GitHub – Version control and project hosting
+- CSV Files – Exporting query results
+- Microsoft Excel – Viewing dataset outputs
+- Markdown – Documentation writing
+- Screenshot Tools – Capturing query results
 
 ## Recommendations
 Based on this project, the following improvements can enhance employee data analysis:
-Implement automated dashboards using Power BI or Tableau.
-Track employee attendance trends to detect absenteeism patterns.
-Use SQL queries to identify salary gaps between job roles.
-Monitor employee performance regularly to improve productivity.
-Integrate the database with a web-based HR management system.
+1. Implement automated dashboards using Power BI or Tableau.
+2. Track employee attendance trends to detect absenteeism patterns.
+3. Use SQL queries to identify salary gaps between job roles.
+4. Monitor employee performance regularly to improve productivity.
+5. Integrate the database with a web-based HR management system.
 
 
 ## Author
