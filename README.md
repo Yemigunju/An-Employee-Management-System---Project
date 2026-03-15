@@ -201,6 +201,8 @@ Lesson Learned
 - This query helps management understand staff distribution across departments.
 - It can help HR decide if a department needs more or fewer employees.
 
+[![Active Employees in the Finance Department](Screenshots/employees_from_the_finance_department_who_are_still_active.JPG)](Screenshots/employees_from_the_finance_department_who_are_still_active.JPG)
+
 ## 5. Employees Paid Above 100,000
 There are 56 employee records earning above 100,000.
 
