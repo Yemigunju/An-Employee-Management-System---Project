@@ -252,7 +252,7 @@ Screenshot
 [![Attendance Records for January 2026](Screenshots/attendance_records_for_Jan_2026.JPG)](Screenshots/attendance_records_for_Jan_2026.JPG)
 
 
-9. Active Employees from the Finance Department
+## 9. Active Employees from the Finance Department
 There are 52 active employees in the Finance department.
 
 Lesson Learned
@@ -260,7 +260,10 @@ Lesson Learned
 - This helps managers see how many employees are currently active in a specific department.
 - The information can help in department workforce planning.
 
+Screenshot
+[![Active Employees from the Finance Department](Screenshots/records_of_employees_from_finance_department_and_are_still_active.JPG)](Screenshots/records_of_employees_from_finance_department_and_are_still_active.JPG)
 
+Screenshots/records_of_employees_from_finance_department_and_are_still_active.JPG
 ## 10. Order Employees by last name alphabetical
 Ordering Employees by last name alphabetical, '42', 'Owen', 'Adams', ranks top
 
