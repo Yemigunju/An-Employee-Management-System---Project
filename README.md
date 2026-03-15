@@ -1,4 +1,4 @@
-# An-Employee-Management-System---Project
+remove the markdown format and write as a readme file - # An-Employee-Management-System---Project
 # Employee Management System (SQL Project)
 
 ## Problem Statement
@@ -154,10 +154,6 @@ Several SQL queries were written to analyze the data and retrieve useful informa
 ## 1. Employee Full Name and Email
 
 This query combines employee first and last names to generate a full name.
-
-```sql
-SELECT CONCAT(FirstName,' ', LastName) AS Full_name, Email
-FROM employees;
 
 Screenshot
 
