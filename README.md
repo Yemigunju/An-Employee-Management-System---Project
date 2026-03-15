@@ -217,13 +217,16 @@ Screenshot
 
 Screenshots/employee_records_who_are_paid_above_one_hundred_thousand.JPG
 
-6. Employees from HR and Finance Departments
+## 6. Employees from HR and Finance Departments
 This query displays information about employees working in the HR and Finance departments.
 
 Lesson Learned
 - The query helps filter employees based on specific departments.
 - It allows managers to quickly view staff details within selected departments.
 - This can help when preparing department reports or internal audits.
+
+Screenshot
+[![Employees from HR and Finance Departments](Screenshots/information_about_employees_from_the_HR_and_Finance_department.JPG)](Screenshots/information_about_employees_from_the_HR_and_Finance_department.JPG)
 
 7. Employees Who Are Not Active
 There are 54 employees who are not active.
