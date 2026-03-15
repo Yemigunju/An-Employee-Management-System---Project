@@ -155,7 +155,7 @@ This query combines the employee’s first name and last name to create a full n
 
 Screenshot
 
-[![Employee Names and Emails](Screenshots/records of employee by their full names and email - Copy.JPG)](Screenshots/records of employee by their full names and email - Copy.JPG)
+[![Employee Full Name and Email](Screenshots/recordofemployeesfullnameandemail.JPG)](Screenshots/recordofemployeesfullnameandemail.JPG)
 
 Lesson Learned
 - We can combine two columns (first name and last name) to create a full name.
@@ -169,7 +169,6 @@ Sophia Miller
 Isabella Martinez
 
 
-
 ## 2. Active Employees
 There are 61 active employees in the company.
 
@@ -177,6 +176,7 @@ Lesson Learned
 - The company currently has 61 employees actively working.
 - This query helps managers quickly know the current workforce size.
 - It can also help HR track how many employees are still employed.
+
 
 ## 3. Employees Who Are Absent
 There are 58 employees marked as absent in the attendance records.
