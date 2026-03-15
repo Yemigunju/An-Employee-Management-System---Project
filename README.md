@@ -408,5 +408,5 @@ Based on this project, the following improvements can enhance employee data anal
 
 ## Author
 Opeyemi Morakinyo
-Business Intelligence Analyst
-SQL | Excel | Power BI | Data Analysis
+- Business Intelligence Analyst
+- SQL | Excel | Power BI | Data Analysis
