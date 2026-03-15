@@ -177,6 +177,9 @@ Lesson Learned
 - This query helps managers quickly know the current workforce size.
 - It can also help HR track how many employees are still employed.
 
+Screenshot
+
+[![Employee Full Name and Email](Screenshots/active_employees_only.JPG)](Screenshots/active_employees_only.JPG)
 
 ## 3. Employees Who Are Absent
 There are 58 employees marked as absent in the attendance records.
