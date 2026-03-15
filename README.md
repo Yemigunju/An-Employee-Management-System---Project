@@ -179,7 +179,7 @@ Lesson Learned
 
 Screenshot
 
-[![Employee Full Name and Email](Screenshots/active_employees_only.JPG)](Screenshots/active_employees_only.JPG)
+[![Active Employees](Screenshots/active_employees_only.JPG)](Screenshots/active_employees_only.JPG)
 
 ## 3. Employees Who Are Absent
 There are 58 employees marked as absent in the attendance records.
@@ -188,6 +188,10 @@ Lesson Learned
 - A large number of employees were not present at work on the recorded day(s).
 - Attendance data can help HR monitor absenteeism.
 - Managers can use this information to identify attendance problems early.
+
+Screenshot
+
+[![Employees Who Are Absent](Screenshots/employees_who_are_absent.JPG)](Screenshots/employees_who_are_absent.JPG)
 
 ## 4. Active Employees in the Finance Department
 There are 57 active employees in the Finance department.
