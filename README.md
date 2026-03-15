@@ -228,13 +228,17 @@ Lesson Learned
 Screenshot
 [![Employees from HR and Finance Departments](Screenshots/information_about_employees_from_the_HR_and_Finance_department.JPG)](Screenshots/information_about_employees_from_the_HR_and_Finance_department.JPG)
 
-7. Employees Who Are Not Active
+## 7. Employees Who Are Not Active
 There are 54 employees who are not active.
 
 Lesson Learned
 - Some employees in the system are no longer actively working.
 - This could mean they have resigned, been terminated, or are on leave.
 - HR can use this information to track employee turnover.
+
+Screenshot
+[![Employees Who Are Not Active](Screenshots/Export_records_of_employees_aren’t_active.JPG)](Screenshots/Export_records_of_employees_aren’t_active.JPG)
+
 
 8. Attendance Records for January 2026
 There are 53 employees who have attendance records for January 2026.
