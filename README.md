@@ -1,4 +1,3 @@
-remove the markdown format and write as a readme file - # An-Employee-Management-System---Project
 # Employee Management System (SQL Project)
 
 ## Problem Statement
@@ -290,6 +289,9 @@ There are 49 Unique Departments in the organization
 Lesson Learned
 - The query removes duplicate department records.
 - It shows a clean list of all departments in the company.
+
+Screenshot
+[![Unique Departments in the organization](Screenshots/Unique_Departments.JPG)](Screenshots/Unique_Departments.JPG)
 
 
 ## 13. Top 5 Performing Employees
