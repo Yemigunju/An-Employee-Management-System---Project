@@ -311,7 +311,7 @@ Sophia
 Harper
 
 Screenshot
-![Top 5 Performers](screenshots/Top 5 Performers.JPG)
+[![Top 5 Performing Employees](Screenshots/Top_5_Performers.JPG)](Screenshots/Top_5_Performers.JPG)
 
 
 ## 14. Pagination Example (Next 5 Employees)
