@@ -273,12 +273,15 @@ Lesson Learned
 Screenshot
 [![Order Employees by last name alphabetically](Screenshots/Order_Employees_by_last_name_in_alphabetically.JPG)](Screenshots/Order_Employees_by_last_name_in_alphabetically.JPG)
 
-## 11. records of employees with the Highest Salaries First
+## 11. Records of employees with the Highest Salaries First
 There is a records of 50 employees that receives the Highest Salaries
 
 Lesson Learned
 - Employees are arranged from the highest-paid employee to the lowest-paid employee.
 - This helps managers see how salaries are distributed across employees.
+
+Screenshot
+[![Records of employees with the Highest Salaries First](Screenshots/Records_of_employees_with_the_Highest_Salaries_First.JPG)](Screenshots/Records_of_employees_with_the_Highest_Salaries_First.JPG)
 
 
 ## 12. Unique Departments in the organization
