@@ -154,6 +154,7 @@ Several SQL queries were written to analyze the data and retrieve useful informa
 This query combines the employee’s first name and last name to create a full name and then shows their email address.
 
 Screenshot
+
 [![Employee Names and Emails](Screenshots/records of employee by their full names and email - Copy.JPG)](Screenshots/records of employee by their full names and email - Copy.JPG)
 
 Lesson Learned
