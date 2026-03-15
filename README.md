@@ -301,17 +301,59 @@ Screenshot
 
 ---
 ## Key Business Insights
-Based on the SQL analysis, the following insights were observed:
-- The system successfully combines employee names and contact information for easy communication.
-- The highest-performing employees received a rating of 5, indicating strong performance.
-- Performance rankings can be easily generated using sorting and ordering queries.
-- Pagination helps retrieve large datasets in smaller manageable groups.
-- Joining tables allows employee data to be analyzed alongside performance records.
+
+From the SQL analysis performed on the Employee Management System database, several useful insights were discovered about employee activity, attendance, salaries, and department distribution.
+
+### 1. Workforce Status
+
+- The company currently has **61 active employees**.
+- However, **54 employees are not active**, which may indicate resignations, employee turnover, or employees currently on leave.
+- This insight can help HR understand the **current workforce size and inactive staff records**.
+
+---
+
+### 2. Attendance Trends
+
+- **58 employees were recorded as absent** in the attendance dataset.
+- **53 employees had attendance records for January 2026**.
+- These insights can help management monitor **attendance behavior and identify possible absenteeism patterns**.
+
+---
+
+### 3. Department Distribution
+
+- The **Finance department has a large number of active employees**, with records showing **52–57 active staff members** depending on the filtering criteria.
+- The queries also display information about employees in **both the HR and Finance departments**, helping management review employee data by department.
+
+This type of analysis can help companies understand **how employees are distributed across departments**.
+
+---
+
+### 4. Salary Insights
+
+- **56 employee records show salaries above 100,000**.
+- This indicates that a significant portion of employees earn **above this salary threshold**.
+
+Such insights can help management analyze **salary distribution and compensation levels across employees**.
+
+---
+
+### 5. Importance of Data Filtering
+
+The SQL queries demonstrated how filtering employee data can answer real business questions, such as:
+
+- Identifying **active employees**
+- Tracking **employee attendance**
+- Reviewing **department staffing levels**
+- Monitoring **salary ranges**
+- Analyzing **employee activity over time**
+
+These insights show how SQL databases can support **data-driven decision-making in organizations**.
 
 
 
 ---
-Tools Used
+## Tools Used
 The following tools were used in this project:
 MySQL Workbench – Database creation and query execution
 SQL – Data analysis and manipulation
@@ -321,7 +363,7 @@ Microsoft Excel – Viewing dataset outputs
 Markdown – Documentation writing
 Screenshot Tools – Capturing query results
 
-Recommendations
+## Recommendations
 Based on this project, the following improvements can enhance employee data analysis:
 Implement automated dashboards using Power BI or Tableau.
 Track employee attendance trends to detect absenteeism patterns.
@@ -330,7 +372,7 @@ Monitor employee performance regularly to improve productivity.
 Integrate the database with a web-based HR management system.
 
 
-Author
+## Author
 Opeyemi Morakinyo
 Business Intelligence Analyst
 SQL | Excel | Power BI | Data Analysis
