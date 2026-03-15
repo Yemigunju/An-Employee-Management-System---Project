@@ -314,7 +314,7 @@ Screenshot
 [![Top 5 Performing Employees](Screenshots/Top_5_Performers.JPG)](Screenshots/Top_5_Performers.JPG)
 
 
-## 14. Pagination Example (Next 5 Employees)
+## 14. Next 5 Employees
 This query retrieves the next group of employees after the first five records.
 
 What We Learned
@@ -331,10 +331,9 @@ Mia
 Sophia
 
 Screenshot
-![Next 5 Employees](screenshots/Next 5 Employees (Pagination).JPG)
+[![Next 5 Employees](Screenshots/Next_5_Employees_(Pagination).JPG)](Screenshots/Next_5_Employees_(Pagination).JPG)
 
-
-
+Screenshots/Next_5_Employees_(Pagination).JPG
 ---
 ## Key Business Insights
 
