@@ -50,98 +50,99 @@ The schema contains **six main tables**.
 
 ## 1. Jobs
 
-Stores job roles available in the organization.
+This table keeps information about the different **types of jobs** available in the company.
 
-| Column | Description |
+| Column | Meaning |
 |------|-------------|
-| JobID | Unique identifier for each job |
-| JobTitle | Title of the job |
-| MinSalary | Minimum salary range |
-| MaxSalary | Maximum salary range |
+| JobID | A special number used to identify each job |
+| JobTitle | The name of the job (for example: Manager, Accountant) |
+| MinSalary | The lowest salary someone in that job can earn |
+| MaxSalary | The highest salary someone in that job can earn |
 
 ---
 
 ## 2. Departments
 
-Stores department information.
+This table stores information about the **different sections of the company**.
 
-| Column | Description |
+| Column | Meaning |
 |------|-------------|
-| DeptID | Unique department identifier |
-| DeptName | Department name |
-| Location | Department location |
+| DeptID | A unique number used to identify each department |
+| DeptName | The name of the department (for example: Finance, HR) |
+| Location | Where the department is located |
 
 ---
 
 ## 3. Employees
 
-Stores employee personal and job information.
+This table stores **basic information about each employee** who works in the company.
 
-| Column | Description |
+| Column | Meaning |
 |------|-------------|
-| EmployeeID | Unique employee ID |
-| FirstName | Employee first name |
-| LastName | Employee last name |
-| DateOfBirth | Employee birth date |
-| Gender | Employee gender |
-| Email | Employee email |
-| PhoneNumber | Contact number |
-| HireDate | Employment start date |
-| JobID | Job reference |
-| DepartmentID | Department reference |
-| ManagerID | Employee's manager |
-| Status | Employment status |
+| EmployeeID | A unique number for each employee |
+| FirstName | The employee’s first name |
+| LastName | The employee’s last name |
+| DateOfBirth | The employee’s date of birth |
+| Gender | The employee’s gender |
+| Email | The employee’s email address |
+| PhoneNumber | The employee’s phone number |
+| HireDate | The date the employee started working |
+| JobID | The job the employee does |
+| DepartmentID | The department the employee belongs to |
+| ManagerID | The manager the employee reports to |
+| Status | Whether the employee is currently working or not |
 
-Status values include:
+Status can be:
 
-- Active
-- Inactive
-- On Leave
+- **Active** – The employee is currently working.
+- **Inactive** – The employee is no longer working.
+- **On Leave** – The employee is temporarily away from work.
 
 ---
 
 ## 4. Salaries
 
-Stores employee salary records.
+This table stores information about **how much employees are paid**.
 
-| Column | Description |
+| Column | Meaning |
 |------|-------------|
-| SalaryID | Salary record ID |
-| EmployeeID | Employee reference |
-| SalaryAmount | Salary value |
-| FromDate | Start date |
-| ToDate | End date |
+| SalaryID | A unique number for each salary record |
+| EmployeeID | The employee who receives the salary |
+| SalaryAmount | The amount of money the employee earns |
+| FromDate | The date the salary started |
+| ToDate | The date the salary ended (if it changed later) |
 
 ---
 
 ## 5. Attendance
 
-Stores daily attendance records.
+This table keeps track of **whether employees came to work each day**.
 
-| Column | Description |
+| Column | Meaning |
 |------|-------------|
-| AttendanceID | Attendance record ID |
-| EmployeeID | Employee reference |
-| AttendanceDate | Date of attendance |
-| Status | Present, Absent, Leave |
-| CheckInTime | Clock-in time |
-| CheckOutTime | Clock-out time |
+| AttendanceID | A unique number for each attendance record |
+| EmployeeID | The employee the record belongs to |
+| AttendanceDate | The day the attendance was recorded |
+| Status | Whether the employee was Present, Absent, or on Leave |
+| CheckInTime | The time the employee arrived at work |
+| CheckOutTime | The time the employee left work |
 
 ---
 
 ## 6. Performance
 
-Stores employee performance review records.
+This table stores **how well employees are doing at their jobs** based on reviews.
 
-| Column | Description |
+| Column | Meaning |
 |------|-------------|
-| PerformanceID | Performance record ID |
-| EmployeeID | Employee reference |
-| ReviewDate | Date of review |
-| Rating | Performance score (1–5) |
-| Comments | Manager comments |
+| PerformanceID | A unique number for each performance review |
+| EmployeeID | The employee being reviewed |
+| ReviewDate | The date the review was done |
+| Rating | A score between 1 and 5 showing performance |
+| Comments | Notes from the manager about the employee’s performance |
 
----
+A **rating of 5 means excellent performance**, while **1 means very poor performance**.
+
 
 ## SQL Analysis
 
@@ -150,68 +151,122 @@ Several SQL queries were written to analyze the data and retrieve useful informa
 ---
 
 ## 1. Employee Full Name and Email
-This query combines employee first and last names to generate a full name.
+This query combines the employee’s first name and last name to create a full name and then shows their email address.
 
 Screenshot
 ![Employee Names and Emails](screenshots/records of employee by their full names and email.JPG)
 
----
-## 2. active employees
-There  are 61 active employees
+Lesson Learned
+- We can combine two columns (first name and last name) to create a full name.
+- The query shows the email address for every employee.
+- This kind of query can help a company quickly create a contact list of employees.
+
+Example employees shown include:
+Ava Jones
+William Garcia
+Sophia Miller
+Isabella Martinez
 
 
----
-## 3. employee who are absent
-There are 58 employee who are absent
+
+## 2. Active Employees
+There are 61 active employees in the company.
+
+Lesson Learned
+- The company currently has 61 employees actively working.
+- This query helps managers quickly know the current workforce size.
+- It can also help HR track how many employees are still employed.
+
+## 3. Employees Who Are Absent
+There are 58 employees marked as absent in the attendance records.
+
+Lesson Learned
+- A large number of employees were not present at work on the recorded day(s).
+- Attendance data can help HR monitor absenteeism.
+- Managers can use this information to identify attendance problems early.
+
+## 4. Active Employees in the Finance Department
+There are 57 active employees in the Finance department.
+
+Lesson Learned
+- The Finance department has a large number of active staff.
+- This query helps management understand staff distribution across departments.
+- It can help HR decide if a department needs more or fewer employees.
+
+## 5. Employees Paid Above 100,000
+There are 56 employee records earning above 100,000.
+
+Lesson Learned
+- Many employees in the organization earn more than 100,000 in salary.
+- This query helps identify higher-paid employees.
+- It can help management analyze salary structures and compensation levels.
+
+6. Employees from HR and Finance Departments
+This query displays information about employees working in the HR and Finance departments.
+
+Lesson Learned
+- The query helps filter employees based on specific departments.
+- It allows managers to quickly view staff details within selected departments.
+- This can help when preparing department reports or internal audits.
+
+7. Employees Who Are Not Active
+There are 54 employees who are not active.
+
+Lesson Learned
+- Some employees in the system are no longer actively working.
+- This could mean they have resigned, been terminated, or are on leave.
+- HR can use this information to track employee turnover.
+
+8. Attendance Records for January 2026
+There are 53 employees who have attendance records for January 2026.
+
+Lesson Learned
+- The query shows employees who were present during January 2026.
+- This helps track monthly attendance patterns.
+- Management can use this information to analyze employee participation and consistency.
+
+9. Active Employees from the Finance Department
+There are 52 active employees in the Finance department.
+
+Lesson Learned
+- The Finance department still has many active employees contributing to operations.
+- This helps managers see how many employees are currently active in a specific department.
+- The information can help in department workforce planning.
 
 
----
-## 4. employees from the finance department who are still active
-57 employees from the finance department are still active
-
-
----
-## 5. employee records who are paid above one hundred thousand
-56 employee records are paid above one hundred thousand
-
-
----
-## 6. information about employees from the HR and Finance department
-Here is a display of information about employees from the HR and Finance department
-
-
----
-## 7. Export records of employees aren’t active
-54 employees aren’t active
-
-
----
-## 8. attendance records of employees who were present in attendance only in Jan 2026
-53 emplouyees were in the Jan 2026 attendance records of employees who were present only in 
-
----
-## 9. records of employees from finance department and are still active
-There is a records of 52 employees from finance department and are still active
-
-
----
-## 10. Order Employees by last name in alphabetical
+## 10. Order Employees by last name alphabetical
 Ordering Employees by last name alphabetical, '42', 'Owen', 'Adams', ranks top
 
+Lesson Learned
+- The query sorts employees from A to Z by their last name.
+- Sorting makes it easier to find employees quickly in large lists.
 
----
+
 ## 11. records of employees with the Highest Salaries First
 There is a records of 50 employees that receives the Highest Salaries
 
+Lesson Learned
+- Employees are arranged from the highest-paid employee to the lowest-paid employee.
+- This helps managers see how salaries are distributed across employees.
 
----
+
 ## 12. Unique Departments in the organization
 There are 49 Unique Departments in the organization
 
+Lesson Learned
+- The query removes duplicate department records.
+- It shows a clean list of all departments in the company.
 
----
+
 ## 13. Top 5 Performing Employees
 This query identifies the highest-performing employees based on their rating.
+
+Lesson Learned
+- Employees are arranged from the highest rating to the lowest rating.
+- If two employees have the same rating, the one with the most recent review appears first.
+- The top employees have a rating of 5, which means excellent performance.
+- This helps managers easily identify the best-performing employees in the company.
+
 The first name of the top 5 employees are mentioned below:
 Sophia
 Harper
@@ -223,10 +278,15 @@ Screenshot
 ![Top 5 Performers](screenshots/Top 5 Performers.JPG)
 
 
-
----
 ## 14. Pagination Example (Next 5 Employees)
 This query retrieves the next group of employees after the first five records.
+
+What We Learned
+- This query demonstrates something called pagination.
+- Pagination means showing results in smaller groups instead of all at once.
+- The first query shows the top 5 employees, and this query shows employees 6 to 10.
+- Pagination is useful when working with large datasets because it keeps results organized and easy to read.
+
 The next five employees are listed below:
 Mia
 Sophia
@@ -239,9 +299,8 @@ Screenshot
 
 
 
-
 ---
-Key Business Insights
+## Key Business Insights
 Based on the SQL analysis, the following insights were observed:
 - The system successfully combines employee names and contact information for easy communication.
 - The highest-performing employees received a rating of 5, indicating strong performance.
