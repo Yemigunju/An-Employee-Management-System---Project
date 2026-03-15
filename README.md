@@ -240,13 +240,17 @@ Screenshot
 [![Employees Who Are Not Active](Screenshots/Export_records_of_employees_aren’t_active.JPG)](Screenshots/Export_records_of_employees_aren’t_active.JPG)
 
 
-8. Attendance Records for January 2026
+## 8. Attendance Records for January 2026
 There are 53 employees who have attendance records for January 2026.
 
 Lesson Learned
 - The query shows employees who were present during January 2026.
 - This helps track monthly attendance patterns.
 - Management can use this information to analyze employee participation and consistency.
+
+Screenshot
+[![Attendance Records for January 2026](Screenshots/attendance_records_for_Jan_2026.JPG)](Screenshots/attendance_records_for_Jan_2026.JPG)
+
 
 9. Active Employees from the Finance Department
 There are 52 active employees in the Finance department.
