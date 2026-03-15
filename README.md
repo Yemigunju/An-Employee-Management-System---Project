@@ -263,14 +263,15 @@ Lesson Learned
 Screenshot
 [![Active Employees from the Finance Department](Screenshots/records_of_employees_from_finance_department_and_are_still_active.JPG)](Screenshots/records_of_employees_from_finance_department_and_are_still_active.JPG)
 
-Screenshots/records_of_employees_from_finance_department_and_are_still_active.JPG
-## 10. Order Employees by last name alphabetical
+## 10. Order Employees by last name alphabetically
 Ordering Employees by last name alphabetical, '42', 'Owen', 'Adams', ranks top
 
 Lesson Learned
 - The query sorts employees from A to Z by their last name.
 - Sorting makes it easier to find employees quickly in large lists.
 
+Screenshot
+[![Order Employees by last name alphabetically](Screenshots/Order_Employees_by_last_name_in_alphabetically.JPG)](Screenshots/Order_Employees_by_last_name_in_alphabetically.JPG)
 
 ## 11. records of employees with the Highest Salaries First
 There is a records of 50 employees that receives the Highest Salaries
