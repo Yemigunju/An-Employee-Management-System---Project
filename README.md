@@ -145,68 +145,72 @@ Stores employee performance review records.
 
 ---
 
-# SQL Analysis
-
+### SQL Analysis
 Several SQL queries were written to analyze the data and retrieve useful information. To mention a few:
 
 ---
 
 ## 1. Employee Full Name and Email
-
 This query combines employee first and last names to generate a full name.
-
 Screenshot
-
 ![Employee Names and Emails](screenshots/records of employee by their full names and email.JPG)
 
 ---
 ## active employees
 There  are 61 active employees
----
 
+
+---
 ## employee who are absent
-58 employee are absent
----
+There are 58 employee who are absent
 
+
+---
 ## employees from the finance department who are still active
 57 employees from the finance department are still active
 
----
 
+---
 ## employee records who are paid above one hundred thousand
 56 employee records are paid above one hundred thousand
+
 
 ---
 ## information about employees from the HR and Finance department
 Here is a display of information about employees from the HR and Finance department
----
 
+
+---
 ## Export records of employees aren’t active
 54 employees aren’t active
----
 
+
+---
 ## attendance records of employees who were present in attendance only in Jan 2026
 53 emplouyees were in the Jan 2026 attendance records of employees who were present only in 
----
 
+---
 ## records of employees from finance department and are still active
 There is a records of 52 employees from finance department and are still active
----
 
+
+---
 ## Order Employees by last name in alphabetical
 Ordering Employees by last name alphabetical, '42', 'Owen', 'Adams', ranks top
----
 
+
+---
 ## records of employees with the Highest Salaries First
 There is a records of 50 employees that receives the Highest Salaries
----
 
+
+---
 ## Unique Departments in the organization
 There are 49 Unique Departments in the organization
 
----
-2. Top 5 Performing Employees
 
+---
+Top 5 Performing Employees
 This query identifies the highest-performing employees based on their rating.
 The first name of the top 5 employees are mentioned below:
 Sophia
@@ -216,12 +220,12 @@ Sophia
 Harper
 
 Screenshot
-
 ![Top 5 Performers](screenshots/Top 5 Performers.JPG)
+
+
 
 ---
 3. Pagination Example (Next 5 Employees)
-
 This query retrieves the next group of employees after the first five records.
 The next five employees are listed below:
 Mia
@@ -230,27 +234,23 @@ Harper
 Mia
 Sophia
 Screenshot
-
 ![Next 5 Employees](screenshots/Next 5 Employees (Pagination).JPG)
+
+
 
 
 ---
 Key Business Insights
-
 Based on the SQL analysis, the following insights were observed:
+- The system successfully combines employee names and contact information for easy communication.
+- The highest-performing employees received a rating of 5, indicating strong performance.
+- Performance rankings can be easily generated using sorting and ordering queries.
+- Pagination helps retrieve large datasets in smaller manageable groups.
+- Joining tables allows employee data to be analyzed alongside performance records.
 
-The system successfully combines employee names and contact information for easy communication.
 
-The highest-performing employees received a rating of 5, indicating strong performance.
-
-Performance rankings can be easily generated using sorting and ordering queries.
-
-Pagination helps retrieve large datasets in smaller manageable groups.
-
-Joining tables allows employee data to be analyzed alongside performance records.
 
 ---
-
 Tools Used
 The following tools were used in this project:
 MySQL Workbench – Database creation and query execution
@@ -269,9 +269,8 @@ Use SQL queries to identify salary gaps between job roles.
 Monitor employee performance regularly to improve productivity.
 Integrate the database with a web-based HR management system.
 
+
 Author
-
 Opeyemi Morakinyo
-
 Business Intelligence Analyst
 SQL | Excel | Power BI | Data Analysis
