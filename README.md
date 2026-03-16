@@ -397,7 +397,42 @@ The following tools were used in this project:
 - Markdown – Documentation writing
 - Screenshot Tools – Capturing query results
 
-## Recommendations
+
+## Recommendations to improve productivity and management
+
+Based on the analysis of employee performance and attendance records, the following recommendations can help improve workforce productivity and management:
+
+### 1. Improve Attendance Monitoring
+
+- Since a significant number of employees were recorded as absent, the organization should implement a **better attendance monitoring system**.
+- Regular attendance reports can help managers quickly identify employees with **frequent absences**.
+
+### 2. Reward High-Performing Employees
+
+- Employees with **high performance ratings (such as rating 5)** should be recognized and rewarded.
+- Incentives such as bonuses, promotions, or public recognition can **motivate employees to maintain strong performance**.
+
+### 3. Provide Support for Low Performers
+
+- Employees with lower performance ratings may benefit from **additional training, mentorship, or coaching**.
+- Performance improvement plans can help these employees **develop the skills needed to perform better**.
+
+### 4. Track Department Performance
+
+- Departments with many active and high-performing employees can serve as **benchmarks for other departments**.
+- Management can study their work processes and **apply successful practices across the organization**.
+
+### 5. Use Data for Workforce Planning
+
+- Combining attendance data with performance data can help managers make **better staffing and scheduling decisions**.
+- This can improve **productivity and reduce operational disruptions**.
+
+### 6. Implement Regular Performance Reviews
+
+- Conducting **regular performance evaluations** ensures that employee progress is tracked over time.
+- This helps management identify **top talent and potential leaders within the organization**.
+
+## Recommendations for employee data analysis
 Based on this project, the following improvements can enhance employee data analysis:
 1. Implement automated dashboards using Power BI or Tableau.
 2. Track employee attendance trends to detect absenteeism patterns.
